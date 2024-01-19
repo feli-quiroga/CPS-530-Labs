@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4</title>
+    <script src="lab4.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylelab4.css" />
+</head>
+<body>
+    <div id="Problem1">
+            <h1>
+                Problem 1: Basic Info Form
+            </h1>
+            <form id="p1form">
+                Enter your name: <input type="text" id="p1name">
+                <br>
+                <br>
+                Enter your address: <input type="text" id="p1address">
+                <br>
+                <br>
+                Enter your phone number: <input type="text" id="p1phone">
+                <br>
+                <br>
+                <input type="button"
+                onclick="p1validate(document.getElementById('p1name'), document.getElementById('p1phone'), document.getElementById('p1address'))"
+                value="Validate Form">
+            </form>
+            <div id="p1validated"></div>
+    </div>
+    <div id="Problem2">
+        <h1>
+            Problem 2: Word and Char Count
+        </h1>
+        <p>
+            Enter Text in the following box:
+        </p>
+        <textarea id="p2text" name="whatever" rows="5" cols="50" oninput="p2charletterc();"></textarea>
+        <br>
+        <div id="charc">Character Count: <span id="charct">0</span></div>
+        <div id="letterc">Letter Count: <span id="letterct">0</span></div>
+    </div>
+    <div id="Problem3">
+        <h1>
+            Problem 3:  List of Bookmarks
+        </h1>
+        <input type="button"
+        onclick="p3bookmarks()"
+        value="Generate Bookmarks">
+        <div id="p3list"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+* {
+    background-color: #89cff0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#p1name {
+    text-align: left;
+}
+#p1address {
+    text-align: left;
+}
+#p1phone{
+    text-align: left;
+}
+#p2text {
+    text-align: left;
+}
+

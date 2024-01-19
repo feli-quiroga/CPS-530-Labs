@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab05</title>
+    
+    <!-- jquery/javascript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="lab5.js"></script>
+    <!-- CSS/Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stylelab5.css">
+</head>
+<body>
+    <div class="row justify-content-center">
+        <div class="col-sm-8 mx-auto" style="text-align: center;">
+            <h2>Mr. Potatoe Head Game</h2>
+            <p>Drag to build Mr. Potatoe Head Toronto Downtown Edition!</p>
+            <br>
+        </div>
+        <div class="col-sm-8 mx-auto" id="potatoebox">
+            <img class="draggable_img" src="Images/cuerpo.png" alt="Draggable Image">
+            <img class="draggable_img" src="Images/ojo_iz.png" alt="Draggable Image">
+            <img class="draggable_img" src="Images/ojo_der.png" alt="Draggable Image">
+            <img class="draggable_img" src="Images/nose.png" alt="Draggable Image">
+            <img class="draggable_img" src="Images/mouth.png" alt="Draggable Image">
+            <img class="draggable_img" src="Images/hat.png" alt="Draggable Image">
+        </div>
+        <div class="col-sm-8 mx-auto" style="text-align: center;">
+            <p>Click the button below to download Mr. Potatoe Head</p>
+            <button id="potatoebutton">Download Picture</button>
+            <p>Hover over the image below!</p>
+
+        </div>
+    </div>
+    <div>
+        <div class="row justify-content-center mt-3" id="hoverimage">
+            <img id="dandy" src="Images/silvido-dandy-de-barcelona.gif" alt="Dandy de Barcelona">
+            <button id="patras">🔙</button>
+        </div>
+    </div>
+
+</body>
+</html>
